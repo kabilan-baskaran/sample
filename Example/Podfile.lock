@@ -1,0 +1,16 @@
+PODS:
+  - ZizeraSDK (0.1.0)
+
+DEPENDENCIES:
+  - ZizeraSDK (from `../`)
+
+EXTERNAL SOURCES:
+  ZizeraSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZizeraSDK: aa5324201db9841a5510ca37036d4fa6d4eb192c
+
+PODFILE CHECKSUM: a86b62f2b398d80d766f73fba87555b93d7f5d33
+
+COCOAPODS: 1.2.0

@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/kabilan-baskaran/ZizeraSDK'
+  s.homepage         = 'https://github.com/kabilan-baskaran/sample.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kabilan-baskaran' => 'kabilan@ec.is' }
-  s.source           = { :git => 'https://github.com/kabilan-baskaran/ZizeraSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kabilan-baskaran/sample.git', :tag => 1 }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
