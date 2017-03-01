@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZizeraSDK_Tests' do
+  pod 'ZizeraSDK', :path => '../'
+  
+  
+end
