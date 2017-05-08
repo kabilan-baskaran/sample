@@ -1,29 +1,68 @@
-# ZizeraSDK
+## [fastlane match](https://github.com/fastlane/fastlane/tree/master/match#readme)
 
-[![CI Status](http://img.shields.io/travis/kabilan-baskaran/ZizeraSDK.svg?style=flat)](https://travis-ci.org/kabilan-baskaran/ZizeraSDK)
-[![Version](https://img.shields.io/cocoapods/v/ZizeraSDK.svg?style=flat)](http://cocoapods.org/pods/ZizeraSDK)
-[![License](https://img.shields.io/cocoapods/l/ZizeraSDK.svg?style=flat)](http://cocoapods.org/pods/ZizeraSDK)
-[![Platform](https://img.shields.io/cocoapods/p/ZizeraSDK.svg?style=flat)](http://cocoapods.org/pods/ZizeraSDK)
+This repository contains all your certificates and provisioning profiles needed to build and sign your applications. They are encrypted using OpenSSL via a passphrase.
 
-## Example
+**Important:** Make sure this repository is set to private and only your team members have access to this repo.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Do not modify this file, as it gets overwritten every time you run `match`.
 
-## Requirements
+### Installation
 
-## Installation
+Make sure you have the latest version of the Xcode command line tools installed:
 
-ZizeraSDK is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "ZizeraSDK"
+```
+xcode-select --install
 ```
 
-## Author
+### Choose your installation method:
 
-kabilan-baskaran, kabilan@ec.is
+<table width="100%" >
+<tr>
+<th width="33%"><a href="http://brew.sh">Homebrew</a></td>
+<th width="33%">Installer Script</td>
+<th width="33%">Rubygems</td>
+</tr>
+<tr>
+<td width="33%" align="center">macOS</td>
+<td width="33%" align="center">macOS</td>
+<td width="33%" align="center">macOS or Linux with Ruby 2.0.0 or above</td>
+</tr>
+<tr> 
+<td width="33%"><code>brew cask install fastlane</code></td>
+<td width="33%"><a href="https://download.fastlane.tools">Download the zip file</a>. Then double click on the <code>install</code> script (or run it in a terminal window).</td>
+<td width="33%"><code>sudo gem install fastlane -NV</code></td>
+</tr>
+</table>
 
-## License
+### Usage
 
-ZizeraSDK is available under the MIT license. See the LICENSE file for more info.
+Navigate to your project folder and run
+
+```
+fastlane match appstore
+```
+```
+fastlane match adhoc
+```
+```
+fastlane match development
+```
+```
+fastlane match enterprise
+```
+
+For more information open [fastlane match git repo](https://github.com/fastlane/fastlane/tree/master/match#readme)
+
+### Content
+
+#### certs
+
+This directory contains all your certificates with their private keys
+
+#### profiles
+
+This directory contains all provisioning profiles
+
+------------------------------------
+
+For more information open [fastlane match git repo](https://github.com/fastlane/fastlane/tree/master/match#readme)
